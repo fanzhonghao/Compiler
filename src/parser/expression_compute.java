@@ -34,10 +34,6 @@ public class expression_compute {//计算带括号的表达式 Token[]
         }
 
 
-
-
-
-
         int flag = 0;//表示当前括号个数
 
         int queue_size = queue.size();

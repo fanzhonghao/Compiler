@@ -43,7 +43,7 @@ public class Split_txt {//每次读一句话到另一个文本
             if (commentFlag > 0 && retainString.charAt(i) == '\n') flag++;
         }
 
-        File file = new File("/home/fan/Compiler/src/lexical_analyzer/test1.txt");
+        File file = new File("/home/fan/code/test1.txt");
         if (file.exists()){
             file.delete();
             try {
@@ -78,7 +78,7 @@ public class Split_txt {//每次读一句话到另一个文本
 
     public String readFile(){
         String string = new String();
-        File file = new File("/home/fan/Compiler/src/lexical_analyzer/test1.txt");
+        File file = new File("/home/fan/code/test1.txt");
         Reader reader = null;
         int c;
         try {

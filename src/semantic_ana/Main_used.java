@@ -27,9 +27,9 @@ public class Main_used {//使用函数
         LinkedList<pointClass> pointList = new LinkedList<pointClass>();
         LinkedList<colorClass> colorList = new LinkedList<>();
         Main_used main_used = new Main_used();
-        String url = "/home/fan/Compiler/src/lexical_analyzer/test1.txt";
+        String url = "/home/fan/code/test1.txt";
         Split_txt split_txt = new Split_txt();
-        split_txt.readIn("/home/fan/Compiler/src/lexical_analyzer/test.txt");
+        split_txt.readIn("/home/fan/code/test.txt");
         split_txt.writeTo();
 
         for (;split_txt.readFile() != "";){
@@ -89,7 +89,7 @@ public class Main_used {//使用函数
 
 
 
-                File file = new File("/home/fan/Compiler/src/lexical_analyzer/test1.txt");
+                File file = new File("/home/fan/code/test1.txt");
                 if (file.exists()){
                     file.delete();
                     try {
